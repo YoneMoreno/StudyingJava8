@@ -13,8 +13,11 @@ public class ChainConsumersLambda {
 
         ArrayList<Object> result = new ArrayList<>();
 
-        Consumer<String> myConsumer = System.out::println;
+        Consumer<String> printConsumer = System.out::println;
+        Consumer<String> insertConsumer = result::add;
 
-        strings.forEach(myConsumer);
+
+        strings.forEach(printConsumer.andThen(insertConsumer));
+        System.out.println("El tamaño de la lista, list's size is: " + result.size());
     }
 }

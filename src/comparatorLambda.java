@@ -15,8 +15,7 @@ public class comparatorLambda {
 //            }
 //        };
 
-        Comparator<String> lambdaComparator = (String s1, String s2) ->
-                Integer.compare(s1.length(), s2.length());
+        Comparator<String> lambdaComparator = Comparator.comparingInt(String::length);
 
         List<String> list = Arrays.asList("********", "**", "*", "");
         Collections.sort(list, lambdaComparator);

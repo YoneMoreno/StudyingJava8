@@ -1,5 +1,17 @@
 public class runnableLambda {
     public static void main(String[] args) throws InterruptedException {
+
+//        Runnable runnable = new Runnable() {
+//            @Override
+//            public void run() {
+//                for (int i = 0; i < 3; i++) {
+//                    System.out.println("Hola soy el hilo" +
+//                            Thread.currentThread().getName() +
+//                            "|");
+//                }
+//            }
+//        };
+
         Runnable runnable = () -> {
             for (int i = 0; i < 3; i++) {
                 System.out.println("Hola soy el hilo" +
@@ -7,7 +19,6 @@ public class runnableLambda {
                         "|");
             }
         };
-
 
 
         Thread myThread = new Thread(runnable);

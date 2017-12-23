@@ -1,5 +1,6 @@
 package Time;
 
+import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
@@ -16,6 +17,20 @@ public class InstantExample {
 
         convertInstantToLocalDateTime(now);
 
+        Duration elapsed = getDuration(now, oneHourLater);
+
+        elapsedTimeMinutes(elapsed);
+
+
+    }
+
+    private static void elapsedTimeMinutes(Duration elapsed) {
+        long minutesElapsed = elapsed.toMinutes();
+        System.out.println(minutesElapsed);
+    }
+
+    private static Duration getDuration(Instant now, Instant oneHourLater) {
+        return Duration.between(oneHourLater, now);
     }
 
     private static void convertInstantToLocalDateTime(Instant now) {

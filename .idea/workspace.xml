@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14dafa89-a399-47d0-ae65-afd7e4b34f88" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Time/InstantExample.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/Time/InstantExample.java" afterPath="$PROJECT_DIR$/src/Time/InstantExample.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,10 +106,10 @@
         </entry>
       </file>
       <file leaf-file-name="DataAndTime.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Time/DataAndTime.java">
+        <entry file="file://$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/DataAndTime.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+              <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -118,8 +118,8 @@
       <file leaf-file-name="InstantExample.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Time/InstantExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="320">
+              <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -222,6 +222,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Time" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lambda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Time" type="462c0819:PsiDirectoryNode" />
+              <item name="DataAndTimeCompleteExample" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -236,6 +243,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\YonePC\IdeaProjects\lambda\src\Time\DataAndTimeCompleteExample" />
       <recent name="C:\Users\YonePC\IdeaProjects\lambda\src\Time" />
       <recent name="C:\Users\YonePC\IdeaProjects\lambda\src\PersonProcessingExample" />
     </key>
@@ -455,12 +463,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513962874283</updated>
-      <workItem from="1513962888830" duration="14000000" />
+      <workItem from="1513962888830" duration="14366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14000000" />
+    <option name="totallyTimeSpent" value="14366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="736" extended-state="6" />
@@ -657,18 +665,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Time/DataAndTime.java">
+    <entry file="file://$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/DataAndTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Time/InstantExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="320">
+          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

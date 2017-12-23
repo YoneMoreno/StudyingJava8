@@ -20,7 +20,7 @@ public class MapAndFlatMapExample {
         Function<List<Integer>, Stream<Integer>> flatMapper = l -> l.stream();
 
         list.stream()
-                .map(flatMapper)
+                .flatMap(flatMapper)
                 .forEach(System.out::println);
 
 //        list.stream()

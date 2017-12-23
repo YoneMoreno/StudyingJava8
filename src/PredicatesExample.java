@@ -7,8 +7,11 @@ public class PredicatesExample {
         Stream<String> stream = Stream.of("one", "two", "three");
 
         Predicate<String> mapLength = string -> string.length() > 2;
+        Predicate<String> IsTwo = Predicate.isEqual("two");
+        Predicate<String> IsThree = Predicate.isEqual("three");
 
-        stream.forEach(string -> System.out.println(string));
+        stream  .filter(IsTwo.or(IsThree))
+                .forEach(string -> System.out.println(string));
     }
 
 }

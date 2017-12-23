@@ -1,3 +1,5 @@
+package LambdaExamples;
+
 public class runnableLambda {
     public static void main(String[] args) throws InterruptedException {
 

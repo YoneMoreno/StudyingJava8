@@ -1,4 +1,4 @@
-package PersonProcessingExample;
+package StreamExamples.PersonProcessingExample;
 
 /**
  *

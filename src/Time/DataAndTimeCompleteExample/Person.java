@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package Time;
+package Time.DataAndTimeCompleteExample;
 
 import java.time.LocalDate;
 

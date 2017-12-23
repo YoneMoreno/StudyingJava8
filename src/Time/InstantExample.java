@@ -23,7 +23,14 @@ public class InstantExample {
 
         addWeekTo(now);
 
+        getSecondsBetween(now, oneHourLater);
 
+
+    }
+
+    private static void getSecondsBetween(Instant now, Instant oneHourLater) {
+        long secondsBetween = ChronoUnit.SECONDS.between(oneHourLater, now);
+        System.out.println("Una semana tiene: " + secondsBetween + " segundos");
     }
 
     private static void addWeekTo(Instant now) {

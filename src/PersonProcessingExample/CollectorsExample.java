@@ -13,7 +13,6 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 
-
 public class CollectorsExample {
 
     public static void main(String... args) {
@@ -40,6 +39,12 @@ public class CollectorsExample {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        Optional<Person> opt =
+                persons.stream().filter(p -> p.getAge() >= 20)
+                        .min(Comparator.comparing(Person::getAge));
+        System.out.println("El más joven de entre los que tienen 20 años o más es: " + opt.get().getName() + ", " + opt.get().getAge() + " años");
+
     }
 }
 

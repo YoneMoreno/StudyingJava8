@@ -1,6 +1,7 @@
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
+import java.util.stream.Stream;
 
 public class MapAndFlatMapExample {
 
@@ -16,8 +17,14 @@ public class MapAndFlatMapExample {
 
         Function<List<?>, Integer> size = List::size;
 
+        Function<List<Integer>, Stream<Integer>> flatMapper = l -> l.stream();
+
         list.stream()
-                .map(size)
+                .map(flatMapper)
                 .forEach(System.out::println);
+
+//        list.stream()
+//                .map(size)
+//                .forEach(System.out::println);
     }
 }

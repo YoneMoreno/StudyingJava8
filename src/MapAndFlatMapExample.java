@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Function;
 
 public class MapAndFlatMapExample {
 
@@ -13,8 +14,10 @@ public class MapAndFlatMapExample {
 
         System.out.println(list);
 
+        Function<List<?>, Integer> size = List::size;
+
         list.stream()
-                .map(l -> l.size())
+                .map(size)
                 .forEach(System.out::println);
     }
 }

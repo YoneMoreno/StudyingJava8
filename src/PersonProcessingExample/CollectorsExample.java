@@ -45,6 +45,19 @@ public class CollectorsExample {
                         .min(Comparator.comparing(Person::getAge));
         System.out.println("El más joven de entre los que tienen 20 años o más es: " + opt.get().getName() + ", " + opt.get().getAge() + " años");
 
+
+        Map<Integer, String> map =
+                persons.stream()
+                        .collect(
+                                Collectors.groupingBy(
+                                        Person::getAge,
+                                        Collectors.mapping(
+                                                Person::getName,
+                                                Collectors.joining(", ")
+                                        )
+                                )
+                        );
+        System.out.println(map);
     }
 }
 

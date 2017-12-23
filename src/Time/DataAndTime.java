@@ -26,6 +26,12 @@ public class DataAndTime {
 
         LocalDate now = LocalDate.now();
 
+        printYearAndMonthsFromBirthdayToNow(persons, now);
+
+
+    }
+
+    private static void printYearAndMonthsFromBirthdayToNow(List<Person> persons, LocalDate now) {
         persons.stream().forEach(
                 p -> {
                     Period between = Period.between(p.getDateOfBirth(), now);
@@ -37,8 +43,6 @@ public class DataAndTime {
                     );
                 }
         );
-
-
     }
 
     private static void readPersonFile(List<Person> persons) {

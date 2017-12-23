@@ -21,7 +21,15 @@ public class InstantExample {
 
         elapsedTimeMinutes(elapsed);
 
+        addWeekTo(now);
 
+
+    }
+
+    private static void addWeekTo(Instant now) {
+        Duration week = Duration.ofDays(7);
+        Instant nowPlusWeek = now.plus(week);
+        System.out.println(nowPlusWeek);
     }
 
     private static void elapsedTimeMinutes(Duration elapsed) {

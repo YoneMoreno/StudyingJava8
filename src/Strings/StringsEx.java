@@ -23,6 +23,18 @@ public class StringsEx {
         String join = getStringJoin();
         printString(join);
 
+        String[] arrayS = getStrings();
+        String join1 = getStringJoinSemicolon(arrayS);
+        printString(join1);
+
+    }
+
+    private static String getStringJoinSemicolon(String[] arrayS) {
+        return String.join("; ", arrayS);
+    }
+
+    private static String[] getStrings() {
+        return new String[]{"one", "two", "myThree"};
     }
 
     private static String getStringJoin() {

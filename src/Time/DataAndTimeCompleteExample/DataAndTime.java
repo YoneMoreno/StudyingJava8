@@ -3,13 +3,18 @@ package Time.DataAndTimeCompleteExample;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.time.Duration;
 import java.time.LocalDate;
 import java.time.Month;
 import java.time.Period;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Stream;
+
+import static java.util.Collections.*;
 
 /**
  * @author José
@@ -26,7 +31,16 @@ public class DataAndTime {
 
         printYearAndMonthsFromBirthdayToNow(persons, now);
 
+        Comparator<Person> compareNameThenBirthday = getPersonComparator();
 
+        sort(persons, compareNameThenBirthday);
+
+        System.out.println(persons);
+    }
+
+    private static Comparator<Person> getPersonComparator() {
+        return Comparator.comparing(Person::getName)
+                    .thenComparing(Person::getDateOfBirth);
     }
 
     private static void printYearAndMonthsFromBirthdayToNow(List<Person> persons, LocalDate now) {

@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="14dafa89-a399-47d0-ae65-afd7e4b34f88" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionsAndStreams/Examples.java" afterPath="$PROJECT_DIR$/src/CollectionsAndStreams/Examples.java" />
+      <change beforePath="$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/DataAndTime.java" afterPath="$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/DataAndTime.java" />
+      <change beforePath="$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/Person.java" afterPath="$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/Person.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,16 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IntermediaryOperators.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StreamExamples/IntermediaryOperators.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MapAndFlatMapExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StreamExamples/MapAndFlatMapExample.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataAndTime.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DataAndTime.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/DataAndTime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state relative-caret-position="306">
+              <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -74,8 +65,8 @@
       <file leaf-file-name="InstantExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Time/InstantExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="118">
+              <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,21 +140,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Examples.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Examples.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CollectionsAndStreams/Examples.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
-              <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+              <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#848#849#0" expanded="true" />
-                <element signature="e#1254#1255#0" expanded="true" />
-                <element signature="e#1301#1302#0" expanded="true" />
-                <element signature="e#1363#1364#0" expanded="true" />
-                <element signature="e#1415#1416#0" expanded="true" />
-                <element signature="e#1463#1464#0" expanded="true" />
-                <element signature="e#1518#1519#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#1364#1365#0" expanded="true" />
+                <element signature="e#1411#1412#0" expanded="true" />
+                <element signature="e#1473#1474#0" expanded="true" />
+                <element signature="e#1525#1526#0" expanded="true" />
+                <element signature="e#1573#1574#0" expanded="true" />
+                <element signature="e#1628#1629#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -213,6 +218,8 @@
         <option value="$PROJECT_DIR$/src/Strings/StringsEx.java" />
         <option value="$PROJECT_DIR$/src/Files/FileEx.java" />
         <option value="$PROJECT_DIR$/src/CollectionsAndStreams/Examples.java" />
+        <option value="$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/DataAndTime.java" />
+        <option value="$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/Person.java" />
       </list>
     </option>
   </component>
@@ -314,13 +321,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Examples">
+  <component name="RunManager" selected="Application.DataAndTime">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="DataAndTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Time.DataAndTimeCompleteExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Time.DataAndTimeCompleteExample.DataAndTime" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="lambda" />
+      <envs />
     </configuration>
     <configuration name="Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -349,25 +375,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Files.FileEx" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="lambda" />
-      <envs />
-    </configuration>
-    <configuration name="InstantExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Time.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Time.InstantExample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -487,19 +494,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.InstantExample" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LocalDateExample" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StringsEx" />
-      <item index="3" class="java.lang.String" itemvalue="Application.FileEx" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Examples" />
+      <item index="0" class="java.lang.String" itemvalue="Application.LocalDateExample" />
+      <item index="1" class="java.lang.String" itemvalue="Application.StringsEx" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FileEx" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Examples" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DataAndTime" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Examples" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FileEx" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StringsEx" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LocalDateExample" />
-        <item index="4" class="java.lang.String" itemvalue="Application.InstantExample" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DataAndTime" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Examples" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FileEx" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StringsEx" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LocalDateExample" />
       </list>
     </recent_temporary>
   </component>
@@ -516,12 +523,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513962874283</updated>
-      <workItem from="1513962888830" duration="19945000" />
+      <workItem from="1513962888830" duration="21002000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19945000" />
+    <option name="totallyTimeSpent" value="21002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="736" extended-state="6" />
@@ -718,24 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/DataAndTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Time/InstantExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Time/LocalDateExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -799,18 +788,48 @@
     <entry file="file://$PROJECT_DIR$/src/CollectionsAndStreams/Examples.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#1254#1255#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1415#1416#0" expanded="true" />
-            <element signature="e#1463#1464#0" expanded="true" />
-            <element signature="e#1518#1519#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Time/InstantExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/DataAndTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -7,18 +7,19 @@
 package Time.DataAndTimeCompleteExample;
 
 import java.time.LocalDate;
+import java.util.Comparator;
 
 /**
- *
  * @author José
  */
 public class Person {
-    
+
     private String name;
     private LocalDate dateOfBirth;
-    
-    public Person(){}
-    
+
+    public Person() {
+    }
+
     public Person(String name, LocalDate dateOfBirth) {
         this.name = name;
         this.dateOfBirth = dateOfBirth;
@@ -36,4 +37,6 @@ public class Person {
     public String toString() {
         return "Person{" + "name=" + name + ", dateOfBirth=" + dateOfBirth + '}';
     }
+
+
 }

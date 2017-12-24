@@ -2,6 +2,7 @@ package CollectionsAndStreams;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -17,6 +18,14 @@ public class Examples {
         ArrayList<String> listFrom = getListFrom(strings);
         toUpperCase(listFrom);
         printJoining(listFrom);
+
+        ArrayList<String> myListFrom = getListFrom(strings);
+        naturalOrder(myListFrom);
+        printJoining(myListFrom);
+    }
+
+    private static void naturalOrder(ArrayList<String> myListFrom) {
+        myListFrom.sort(Comparator.naturalOrder());
     }
 
     private static void toUpperCase(ArrayList<String> listFrom) {

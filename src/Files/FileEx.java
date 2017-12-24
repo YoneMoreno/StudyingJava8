@@ -11,6 +11,31 @@ public class FileEx {
         Path path = getPath();
         tryReadLines(path);
 
+        Path systemPath = getSystemPath();
+        tryReadDirectories(systemPath);
+
+    }
+
+    private static void tryReadDirectories(Path systemPath) {
+        try(Stream<Path> streamPath = getOneLevelDeep(systemPath)){
+
+            getDirectories(streamPath);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void getDirectories(Stream<Path> streamPath) {
+        streamPath.filter(thisPath-> thisPath.toFile().isDirectory())
+                .forEach(System.out::println);
+    }
+
+    private static Stream<Path> getOneLevelDeep(Path systemPath) throws IOException {
+        return Files.walk(systemPath, 1);
+    }
+
+    private static Path getSystemPath() {
+        return Paths.get("C:/");
     }
 
     private static void tryReadLines(Path path) {

@@ -24,7 +24,7 @@ public class MainComparator {
         Comparator<Person> cmp = cmpPersonAge.thenComparing(cmpPersonFirstName);
 
         Comparator<Person> oneLine = Comparator.comparing(Person::getLastName)
-                .thenComparing(Person::getFirstName
+                .thenComparing(Person::getFirstName)
                 .thenComparing(Person::getAge);
 
     }

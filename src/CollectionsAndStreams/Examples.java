@@ -14,6 +14,13 @@ public class Examples {
         removeIfStringLengthIsGreater(2,list);
         printJoining(list);
 
+        ArrayList<String> listFrom = getListFrom(strings);
+        toUpperCase(listFrom);
+        printJoining(listFrom);
+    }
+
+    private static void toUpperCase(ArrayList<String> listFrom) {
+        listFrom.replaceAll(String::toUpperCase);
     }
 
     private static void printJoining(ArrayList<String> list) {

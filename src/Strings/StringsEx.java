@@ -16,11 +16,15 @@ public class StringsEx {
         newLine();
         printString(s1);
 
-        StringJoiner sjWithPrefixSufix = new StringJoiner(", ", "{", "}");
+        StringJoiner sjWithPrefixSufix = getStringJoinerPrefixSuffix();
         String s2 = convertToString(sjWithPrefixSufix.toString());
         printString(s2);
 
 
+    }
+
+    private static StringJoiner getStringJoinerPrefixSuffix() {
+        return new StringJoiner(", ", "{", "}");
     }
 
     private static void printString(String s1) {

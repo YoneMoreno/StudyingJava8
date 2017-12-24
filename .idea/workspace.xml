@@ -4,6 +4,7 @@
     <list default="true" id="14dafa89-a399-47d0-ae65-afd7e4b34f88" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/LiveCode1/Comparator.java" afterPath="$PROJECT_DIR$/src/LiveCode1/Comparator.java" />
+      <change beforePath="$PROJECT_DIR$/src/LiveCode1/MainComparator.java" afterPath="$PROJECT_DIR$/src/LiveCode1/MainComparator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -131,21 +132,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Comparator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Comparator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LiveCode1/Comparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+            <state relative-caret-position="218">
+              <caret line="14" column="87" lean-forward="false" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainComparator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainComparator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LiveCode1/MainComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="21" column="89" lean-forward="false" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
+            <state relative-caret-position="269">
+              <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -528,7 +529,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513962874283</updated>
-      <workItem from="1513962888830" duration="24517000" />
+      <workItem from="1513962888830" duration="24820000" />
     </task>
     <task id="LOCAL-00001" summary="implement comparator of persons with new sintax">
       <created>1514097873481</created>
@@ -558,11 +559,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514101349841</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added generic type to replace Person in Interface Comparator">
+      <created>1514101464035</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1514101464035</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24517000" />
+    <option name="totallyTimeSpent" value="24820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="736" extended-state="6" />
@@ -639,7 +647,8 @@
     <MESSAGE value="implement comparing into Comparator functional interface to generalize comparator's creation" />
     <MESSAGE value="refactor method reference" />
     <MESSAGE value="generalizing interface method comparing to be able to use it for comparing strings and int via Comparable" />
-    <option name="LAST_COMMIT_MESSAGE" value="generalizing interface method comparing to be able to use it for comparing strings and int via Comparable" />
+    <MESSAGE value="added generic type to replace Person in Interface Comparator" />
+    <option name="LAST_COMMIT_MESSAGE" value="added generic type to replace Person in Interface Comparator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -893,18 +902,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LiveCode1/Comparator.java">
+    <entry file="file://$PROJECT_DIR$/src/LiveCode1/MainComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        <state relative-caret-position="269">
+          <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LiveCode1/MainComparator.java">
+    <entry file="file://$PROJECT_DIR$/src/LiveCode1/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="21" column="89" lean-forward="false" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
+        <state relative-caret-position="218">
+          <caret line="14" column="87" lean-forward="false" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
           <folding />
         </state>
       </provider>

@@ -132,21 +132,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Comparator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Comparator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LiveCode1/Comparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="14" column="87" lean-forward="false" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
-              <folding />
+            <state relative-caret-position="269">
+              <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+              <folding>
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainComparator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainComparator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LiveCode1/MainComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+            <state relative-caret-position="320">
+              <caret line="27" column="45" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -212,8 +215,8 @@
         <option value="$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/Person.java" />
         <option value="$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/DataAndTime.java" />
         <option value="$PROJECT_DIR$/src/Numbers/ex.java" />
-        <option value="$PROJECT_DIR$/src/LiveCode1/MainComparator.java" />
         <option value="$PROJECT_DIR$/src/LiveCode1/Comparator.java" />
+        <option value="$PROJECT_DIR$/src/LiveCode1/MainComparator.java" />
       </list>
     </option>
   </component>
@@ -529,7 +532,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513962874283</updated>
-      <workItem from="1513962888830" duration="24820000" />
+      <workItem from="1513962888830" duration="25199000" />
     </task>
     <task id="LOCAL-00001" summary="implement comparator of persons with new sintax">
       <created>1514097873481</created>
@@ -566,11 +569,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514101464035</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Improving Comparator interface to be able to recompare if first one is equal then use another criteria">
+      <created>1514101776953</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1514101776953</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24820000" />
+    <option name="totallyTimeSpent" value="25199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="736" extended-state="6" />
@@ -648,7 +658,9 @@
     <MESSAGE value="refactor method reference" />
     <MESSAGE value="generalizing interface method comparing to be able to use it for comparing strings and int via Comparable" />
     <MESSAGE value="added generic type to replace Person in Interface Comparator" />
-    <option name="LAST_COMMIT_MESSAGE" value="added generic type to replace Person in Interface Comparator" />
+    <MESSAGE value="Improving Comparator interface to be able to recompare if first one is equal then use another criteria" />
+    <MESSAGE value="Switching multiple compare criteria in one line, improving Comparator interface." />
+    <option name="LAST_COMMIT_MESSAGE" value="Switching multiple compare criteria in one line, improving Comparator interface." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -902,18 +914,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LiveCode1/MainComparator.java">
+    <entry file="file://$PROJECT_DIR$/src/LiveCode1/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
-          <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-          <folding />
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LiveCode1/Comparator.java">
+    <entry file="file://$PROJECT_DIR$/src/LiveCode1/MainComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="14" column="87" lean-forward="false" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
+        <state relative-caret-position="320">
+          <caret line="27" column="45" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="15" />
           <folding />
         </state>
       </provider>

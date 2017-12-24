@@ -16,12 +16,16 @@ public class MainComparator {
 
         Function<Person, Integer> fAge = p -> p.getAge();
         Function<Person, String> fFirstName = p -> p.getFirstName();
-        Function<Person, String> fLastName= p -> p.getLastName();
+        Function<Person, String> fLastName = p -> p.getLastName();
 
         Comparator<Person> cmpPersonAge = Comparator.comparing(Person::getAge);
         Comparator<Person> cmpPersonFirstName = Comparator.comparing(Person::getFirstName);
 
         Comparator<Person> cmp = cmpPersonAge.thenComparing(cmpPersonFirstName);
+
+        Comparator<Person> oneLine = Comparator.comparing(Person::getLastName)
+                .thenComparing(Person::getFirstName
+                .thenComparing(Person::getAge);
 
     }
 }

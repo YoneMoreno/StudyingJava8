@@ -10,6 +10,12 @@ public class ex {
         System.out.println(min);
 
         BinaryOperator<Long> sum  = Long::sum;
-        System.out.println(sum.apply(max,min));
+        Long apply = sum.apply(max, min);
+        System.out.println(apply);
+
+
+        long l = 12983476555555555L;
+        int hash = Long.hashCode(l);
+        System.out.println(hash);
     }
 }

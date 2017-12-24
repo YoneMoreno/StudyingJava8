@@ -16,6 +16,11 @@ public class StringsEx {
         newLine();
         printString(s1);
 
+        StringJoiner sjWithPrefixSufix = new StringJoiner(", ", "{", "}");
+        String s2 = convertToString(sjWithPrefixSufix.toString());
+        printString(s2);
+
+
     }
 
     private static void printString(String s1) {

@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="14dafa89-a399-47d0-ae65-afd7e4b34f88" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/lambda/CollectionsAndStreams/Examples.class" afterPath="$PROJECT_DIR$/out/production/lambda/CollectionsAndStreams/Examples.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/lambda/Time/DataAndTimeCompleteExample/DataAndTime.class" afterPath="$PROJECT_DIR$/out/production/lambda/Time/DataAndTimeCompleteExample/DataAndTime.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/lambda/Time/DataAndTimeCompleteExample/Person.class" afterPath="$PROJECT_DIR$/out/production/lambda/Time/DataAndTimeCompleteExample/Person.class" />
       <change beforePath="$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/DataAndTime.java" afterPath="$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/DataAndTime.java" />
-      <change beforePath="$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/Person.java" afterPath="$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/Person.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/DataAndTime.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+              <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -143,7 +145,7 @@
       <file leaf-file-name="Examples.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CollectionsAndStreams/Examples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="269">
               <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -218,8 +220,8 @@
         <option value="$PROJECT_DIR$/src/Strings/StringsEx.java" />
         <option value="$PROJECT_DIR$/src/Files/FileEx.java" />
         <option value="$PROJECT_DIR$/src/CollectionsAndStreams/Examples.java" />
-        <option value="$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/DataAndTime.java" />
         <option value="$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/Person.java" />
+        <option value="$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/DataAndTime.java" />
       </list>
     </option>
   </component>
@@ -523,12 +525,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513962874283</updated>
-      <workItem from="1513962888830" duration="21002000" />
+      <workItem from="1513962888830" duration="21133000" />
     </task>
+    <task id="LOCAL-00001" summary="implement comparator of persons with new sintax">
+      <created>1514097873481</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1514097873481</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21002000" />
+    <option name="totallyTimeSpent" value="21133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="736" extended-state="6" />
@@ -547,7 +557,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -599,6 +609,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implement comparator of persons with new sintax" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement comparator of persons with new sintax" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -785,26 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CollectionsAndStreams/Examples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
-            <element signature="e#1411#1412#0" expanded="true" />
-            <element signature="e#1473#1474#0" expanded="true" />
-            <element signature="e#1525#1526#0" expanded="true" />
-            <element signature="e#1573#1574#0" expanded="true" />
-            <element signature="e#1628#1629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Time/InstantExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -825,10 +819,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectionsAndStreams/Examples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Time/DataAndTimeCompleteExample/DataAndTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
           <folding />
         </state>
       </provider>

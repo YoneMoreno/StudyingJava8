@@ -32,9 +32,12 @@ public class DataAndTime {
         printYearAndMonthsFromBirthdayToNow(persons, now);
 
         Comparator<Person> compareNameThenBirthday = getPersonComparator();
+        Comparator<Person> reversedOne = getPersonComparator().reversed();
 
         sort(persons, compareNameThenBirthday);
+        System.out.println(persons);
 
+        sort(persons, reversedOne);
         System.out.println(persons);
     }
 

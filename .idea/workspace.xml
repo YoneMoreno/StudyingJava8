@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14dafa89-a399-47d0-ae65-afd7e4b34f88" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Files/FileEx.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/StringsEx.java" afterPath="$PROJECT_DIR$/src/Strings/StringsEx.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,18 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ChainConsumersLambda.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LambdaExamples/ChainConsumersLambda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FirstLambda.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LambdaExamples/FirstLambda.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringsEx.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringsEx.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Strings/StringsEx.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
@@ -150,6 +138,20 @@
                 <element signature="e#2032#2033#0" expanded="true" />
                 <element signature="e#2073#2074#0" expanded="true" />
                 <element signature="e#2108#2109#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileEx.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Files/FileEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -197,6 +199,7 @@
         <option value="$PROJECT_DIR$/src/Time/LocalDateExample.java" />
         <option value="$PROJECT_DIR$/src/Strings/AtringEx.java" />
         <option value="$PROJECT_DIR$/src/Strings/StringsEx.java" />
+        <option value="$PROJECT_DIR$/src/Files/FileEx.java" />
       </list>
     </option>
   </component>
@@ -298,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringsEx">
+  <component name="RunManager" selected="Application.FileEx">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -306,14 +309,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="CollectorsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="DataAndTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="StreamExamples.PersonProcessingExample.*" />
+          <option name="PATTERN" value="Time.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="StreamExamples.PersonProcessingExample.CollectorsExample" />
+      <option name="MAIN_CLASS_NAME" value="Time.DataAndTime" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -325,14 +328,14 @@
       <module name="lambda" />
       <envs />
     </configuration>
-    <configuration name="DataAndTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FileEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Time.*" />
+          <option name="PATTERN" value="Files.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Time.DataAndTime" />
+      <option name="MAIN_CLASS_NAME" value="Files.FileEx" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -471,19 +474,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CollectorsExample" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DataAndTime" />
-      <item index="2" class="java.lang.String" itemvalue="Application.InstantExample" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LocalDateExample" />
-      <item index="4" class="java.lang.String" itemvalue="Application.StringsEx" />
+      <item index="0" class="java.lang.String" itemvalue="Application.DataAndTime" />
+      <item index="1" class="java.lang.String" itemvalue="Application.InstantExample" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LocalDateExample" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StringsEx" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FileEx" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.StringsEx" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LocalDateExample" />
-        <item index="2" class="java.lang.String" itemvalue="Application.InstantExample" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DataAndTime" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CollectorsExample" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FileEx" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StringsEx" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LocalDateExample" />
+        <item index="3" class="java.lang.String" itemvalue="Application.InstantExample" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DataAndTime" />
       </list>
     </recent_temporary>
   </component>
@@ -500,12 +503,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513962874283</updated>
-      <workItem from="1513962888830" duration="17773000" />
+      <workItem from="1513962888830" duration="18493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17773000" />
+    <option name="totallyTimeSpent" value="18493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="736" extended-state="6" />
@@ -762,6 +765,18 @@
             <element signature="e#2032#2033#0" expanded="true" />
             <element signature="e#2073#2074#0" expanded="true" />
             <element signature="e#2108#2109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Files/FileEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
           </folding>
         </state>
       </provider>

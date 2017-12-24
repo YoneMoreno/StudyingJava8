@@ -10,12 +10,32 @@ public class StringsEx {
         IntStream chars = getIntStream(s);
         applyUpperCase(chars);
 
-        StringJoiner stringJoiner = new StringJoiner(", ");
-        stringJoiner.add("one").add("two").add("three");
-        String s1 = stringJoiner.toString();
-        System.out.println();
-        System.out.println(s1);
+        StringJoiner stringJoiner = getStringJoiner();
+        composeString(stringJoiner);
+        String s1 = convertToString(stringJoiner.toString());
+        newLine();
+        printString(s1);
 
+    }
+
+    private static void printString(String s1) {
+        System.out.println(s1);
+    }
+
+    private static void newLine() {
+        System.out.println();
+    }
+
+    private static String convertToString(String s2) {
+        return s2;
+    }
+
+    private static void composeString(StringJoiner stringJoiner) {
+        stringJoiner.add("one").add("two").add("three");
+    }
+
+    private static StringJoiner getStringJoiner() {
+        return new StringJoiner(", ");
     }
 
     private static void applyUpperCase(IntStream chars) {

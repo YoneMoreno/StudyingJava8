@@ -20,7 +20,13 @@ public class StringsEx {
         String s2 = convertToString(sjWithPrefixSufix.toString());
         printString(s2);
 
+        String join = getStringJoin();
+        printString(join);
 
+    }
+
+    private static String getStringJoin() {
+        return String.join(", ", "one", "two", "three");
     }
 
     private static StringJoiner getStringJoinerPrefixSuffix() {

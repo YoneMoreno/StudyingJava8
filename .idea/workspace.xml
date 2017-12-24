@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14dafa89-a399-47d0-ae65-afd7e4b34f88" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CollectionsAndStreams/Examples.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Files/FileEx.java" afterPath="$PROJECT_DIR$/src/Files/FileEx.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,16 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FirstLambda.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LambdaExamples/FirstLambda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IntermediaryOperators.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StreamExamples/IntermediaryOperators.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,10 +133,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileEx.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileEx.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Files/FileEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="187">
               <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -154,6 +144,18 @@
                 <element signature="e#1037#1038#0" expanded="true" />
                 <element signature="e#1433#1434#0" expanded="true" />
                 <element signature="e#1484#1485#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Examples.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CollectionsAndStreams/Examples.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -202,6 +204,7 @@
         <option value="$PROJECT_DIR$/src/Strings/AtringEx.java" />
         <option value="$PROJECT_DIR$/src/Strings/StringsEx.java" />
         <option value="$PROJECT_DIR$/src/Files/FileEx.java" />
+        <option value="$PROJECT_DIR$/src/CollectionsAndStreams/Examples.java" />
       </list>
     </option>
   </component>
@@ -303,7 +306,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileEx">
+  <component name="RunManager" selected="Application.Examples">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -311,14 +314,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="DataAndTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Time.*" />
+          <option name="PATTERN" value="CollectionsAndStreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Time.DataAndTime" />
+      <option name="MAIN_CLASS_NAME" value="CollectionsAndStreams.Examples" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -476,19 +479,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.DataAndTime" />
-      <item index="1" class="java.lang.String" itemvalue="Application.InstantExample" />
-      <item index="2" class="java.lang.String" itemvalue="Application.LocalDateExample" />
-      <item index="3" class="java.lang.String" itemvalue="Application.StringsEx" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FileEx" />
+      <item index="0" class="java.lang.String" itemvalue="Application.InstantExample" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LocalDateExample" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StringsEx" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FileEx" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Examples" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FileEx" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StringsEx" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LocalDateExample" />
-        <item index="3" class="java.lang.String" itemvalue="Application.InstantExample" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DataAndTime" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Examples" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FileEx" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StringsEx" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LocalDateExample" />
+        <item index="4" class="java.lang.String" itemvalue="Application.InstantExample" />
       </list>
     </recent_temporary>
   </component>
@@ -505,12 +508,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513962874283</updated>
-      <workItem from="1513962888830" duration="19089000" />
+      <workItem from="1513962888830" duration="19310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19089000" />
+    <option name="totallyTimeSpent" value="19310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="736" extended-state="6" />
@@ -524,9 +527,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -773,7 +776,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Files/FileEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="187">
           <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -781,6 +784,16 @@
             <element signature="e#1037#1038#0" expanded="true" />
             <element signature="e#1433#1434#0" expanded="true" />
             <element signature="e#1484#1485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectionsAndStreams/Examples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
